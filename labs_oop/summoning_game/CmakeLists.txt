@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.5)
+project(test)
+
+project(untitled1 VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(summoning_game)
+
+add_executable(test main.cpp game.cpp Schools.cpp graph.cpp landscape.cpp menu.cpp summoner.cpp)

@@ -1,0 +1,273 @@
+3
+necro
+demons
+dark_elphs
+11
+PlayBoiCarti
+ChiefKeef
+sceletal_archer
+zombie
+vampire
+hech
+cerber
+sucub
+assasin
+hydra
+dark_dragon
+2
+0
+3
+1
+4
+3
+1
+4
+1
+1
+1
+2
+3
+0
+8
+7
+9
+2
+2
+0
+0
+2
+2
+2
+4
+0
+6
+4
+6
+7
+3
+5
+3
+3
+3
+2
+5
+1
+5
+3
+4
+7
+1
+8
+0
+1
+1
+1
+6
+1
+5
+4
+7
+9
+2
+4
+0
+2
+2
+2
+7
+1
+8
+6
+4
+4
+5
+5
+1
+4
+4
+4
+8
+2
+6
+2
+4
+5
+4
+15
+2
+1
+1
+1
+9
+2
+6
+2
+7
+1
+11
+3
+3
+2
+2
+2
+10
+2
+10
+8
+7
+1
+3
+11
+0
+5
+5
+5
+
+
+// dark_elps
+
+struct Assasin: base_unit{
+    
+    Assasin(){
+        name = 8;
+        2
+        min_damage = 1;
+        max_damage = 3;
+        max_hp = 3;
+        speed = 5;
+        initiative = 3;
+        exp_per_unit = 1;
+    }
+    
+    bool is_dist() const override{
+        return true;
+    }
+    
+    bool is_poison() const override{
+        return true;
+    }
+    
+    bool is_self_heel() const override{
+        return false;
+    }
+    
+    bool is_amoral() const override{
+        return false;
+    }
+    
+};
+
+struct Hydra: base_unit{
+    
+    Hydra(){
+        name = 9;
+        2
+        min_damage = 11;
+        max_damage = 15;
+        max_hp = 12;
+        speed = 3;
+        initiative = 3;
+        exp_per_unit = 3;
+    }
+    
+    bool is_dist() const override{
+        return false;
+    }
+    
+    bool is_poison() const override{
+        return false;
+    }
+    
+    bool is_self_heel() const override{
+        return false;
+    }
+    
+    bool is_amoral() const override{
+        return false;
+    }
+};
+
+struct Dark_dragon: base_unit{
+    
+    Dark_dragon(){
+        2
+        name = 12;
+        min_damage = 14;
+        max_damage = 18;
+        max_hp = 14;
+        speed = 4;
+        initiative = 3;
+        exp_per_unit = 5;
+    }
+    
+    bool is_dist() const override{
+        return false;
+    }
+    
+    bool is_poison() const override{
+        return false;
+    }
+    
+    bool is_self_heel() const override{
+        return false;
+    }
+    
+    bool is_amoral() const override{
+        return false;
+    }
+}
+
+
+1
+1
+6
+7
+14
+9   
+10
+4
+false
+false
+false
+false   
+1
+0
+0
+false
+0
+x
+y
+1
+27
+12
+27
+3
+3
+
+
+
+2
+0
+7
+6
+11
+8    
+10
+4
+true
+false
+false
+false   
+1
+0
+0
+false
+0
+x
+y
+1
+25
+12
+25
+100
+100

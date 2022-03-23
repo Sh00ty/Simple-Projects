@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		50D549BE871EC18B7CDA8A52 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09A7F4B16C21752E5A177C59 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BDBF9902FA378871F1AAF553 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		0BA9ECD6522394D38E081D19 /* Warea.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 55F5DCAD8E84D898628CF574 /* Warea.cpp */; settings = {ATTRIBUTES = (); }; };
+		17A43F12EEDA51947718ACF1 /* Schools.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 62C0D635335659663AA94465 /* Schools.cpp */; settings = {ATTRIBUTES = (); }; };
+		2B6F5B9AE40719D2EFF8773A /* Fight.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7D487CA17D43EC67AA1B6226 /* Fight.cpp */; settings = {ATTRIBUTES = (); }; };
+		3BD43B0EE03045AF1F2F0EC2 /* MyPushButton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 687D6544F5D51350807E014A /* MyPushButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		3D451297C338C2C3E71CF1A8 /* moc_button.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7BC4A5A8E09BBC6094FB4079 /* moc_button.cpp */; settings = {ATTRIBUTES = (); }; };
+		3EE0FAC009A27AEAD96725AB /* moc_game.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A2FF5CC4BA7C4BB373EDDD8B /* moc_game.cpp */; settings = {ATTRIBUTES = (); }; };
+		460B0F7CD7C406680A1B3623 /* moc_menu.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 88336970535D67C1DA9BE982 /* moc_menu.cpp */; settings = {ATTRIBUTES = (); }; };
+		47492CEF1F3507A9EB9E2C65 /* fight_button.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A55421116E7DF8D307EB2D6F /* fight_button.cpp */; settings = {ATTRIBUTES = (); }; };
+		48C583BB0FFD8EC31284E924 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BD0A94197CBB69F311949134 /* QtGui.framework */; };
+		4B2CC3760C48114526F69D71 /* moc_Warea.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4C6E58AD9ADB6ED510B6AA89 /* moc_Warea.cpp */; settings = {ATTRIBUTES = (); }; };
+		5467F786179B1395BABF3D84 /* landscape.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 18731F6B1DF15D5556FB5BE7 /* landscape.cpp */; settings = {ATTRIBUTES = (); }; };
+		5A5622A0F639052823AAC7A9 /* moc_fight.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0BEDC6186952058864D324B1 /* moc_fight.cpp */; settings = {ATTRIBUTES = (); }; };
+		61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */; };
+		687E14EA85152E4D921AC3E6 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B16672A8B0758EFC8FC6D9B7 /* QtCore.framework */; };
+		7439477E6D0CBD93D1620F27 /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 525DE536155721BDC205514D /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		7A09CD26AD2441840150E22B /* menu.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 02A8B882C37BE22A150CFE47 /* menu.cpp */; settings = {ATTRIBUTES = (); }; };
+		7E5068BF81A38111AE870A28 /* game.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FC8D7FD0D22729E954D4B64B /* game.cpp */; settings = {ATTRIBUTES = (); }; };
+		8335DBCF4F2F16844AE0AA03 /* Summoner.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6C05A02D6334C77D5C994E0D /* Summoner.cpp */; settings = {ATTRIBUTES = (); }; };
+		87518BCFA51A2B76C2509561 /* moc_fight_button.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 800F893FD53B9DF0B2576177 /* moc_fight_button.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		A44F60DCECAD5411EEA3549C /* moc_MyPushButton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8EA13AE3BB2E6EBBBA615EAC /* moc_MyPushButton.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2543FCC48E9436F21C4F63 /* Metal.framework */; };
+		C071892727ACC10345AA96B6 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4C12E2FD69E45A3FACFF5550 /* QtWidgets.framework */; };
+		C55FFA3671C26916408BE607 /* MyLib.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AD395296D32B8FD0AF2BA2BE /* MyLib.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		E52A5A94EDF2DE7BE761BC9A /* button.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 910ED804A73685EF21290570 /* button.cpp */; settings = {ATTRIBUTES = (); }; };
+		F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 723F90793B2C195E2CCB2233 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53AD11A02760F525004970DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D549BE871EC18B7CDA8A52;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02A8B882C37BE22A150CFE47 /* menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = menu.cpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/menu.cpp; sourceTree = "<absolute>"; };
+		03C3FBE0F393B37B8C6D5A1A /* Schools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Schools.hpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/Schools.hpp; sourceTree = "<absolute>"; };
+		0BEDC6186952058864D324B1 /* moc_fight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_fight.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_fight.cpp; sourceTree = "<absolute>"; };
+		122290F942920E1369126B91 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = game.hpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/game.hpp; sourceTree = "<absolute>"; };
+		1693A8DC786CAE7CC1A6E15E /* fight_button.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fight_button.hpp; path = /Users/pavelshykov/Desktop/Qtest/test/fight_button.hpp; sourceTree = "<absolute>"; };
+		18731F6B1DF15D5556FB5BE7 /* landscape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = landscape.cpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/landscape.cpp; sourceTree = "<absolute>"; };
+		1B2543FCC48E9436F21C4F63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		360FBCAE0546E9686986CF24 /* test.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = test.pro; path = /Users/pavelshykov/Desktop/Qtest/test/test.pro; sourceTree = "<absolute>"; };
+		3669602613C278AFFD8C3901 /* Fight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Fight.hpp; path = /Users/pavelshykov/Desktop/Qtest/test/Fight.hpp; sourceTree = "<absolute>"; };
+		3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		4C12E2FD69E45A3FACFF5550 /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /usr/local/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		4C6E58AD9ADB6ED510B6AA89 /* moc_Warea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Warea.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_Warea.cpp; sourceTree = "<absolute>"; };
+		525DE536155721BDC205514D /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /usr/local/share/qt/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
+		548382D9863809D3B70B7500 /* Summoner.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Summoner.hpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/Summoner.hpp; sourceTree = "<absolute>"; };
+		55F5DCAD8E84D898628CF574 /* Warea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Warea.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/Warea.cpp; sourceTree = "<absolute>"; };
+		5E0FAEF209295C77959FAC71 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/pavelshykov/Desktop/Qtest/test/.qmake.stash; sourceTree = "<absolute>"; };
+		62C0D635335659663AA94465 /* Schools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Schools.cpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/Schools.cpp; sourceTree = "<absolute>"; };
+		687D6544F5D51350807E014A /* MyPushButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MyPushButton.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/MyPushButton.cpp; sourceTree = "<absolute>"; };
+		6C05A02D6334C77D5C994E0D /* Summoner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Summoner.cpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/Summoner.cpp; sourceTree = "<absolute>"; };
+		723F90793B2C195E2CCB2233 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		7BC4A5A8E09BBC6094FB4079 /* moc_button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_button.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_button.cpp; sourceTree = "<absolute>"; };
+		7C181232AF2DAC34B55BFD21 /* landscape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = landscape.hpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/landscape.hpp; sourceTree = "<absolute>"; };
+		7D487CA17D43EC67AA1B6226 /* Fight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Fight.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/Fight.cpp; sourceTree = "<absolute>"; };
+		800F893FD53B9DF0B2576177 /* moc_fight_button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_fight_button.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_fight_button.cpp; sourceTree = "<absolute>"; };
+		88336970535D67C1DA9BE982 /* moc_menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_menu.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_menu.cpp; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		8EA13AE3BB2E6EBBBA615EAC /* moc_MyPushButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_MyPushButton.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_MyPushButton.cpp; sourceTree = "<absolute>"; };
+		910ED804A73685EF21290570 /* button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = button.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/button.cpp; sourceTree = "<absolute>"; };
+		9A2AC6C57EE462BC233C3B4E /* ui_menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_menu.h; path = /Users/pavelshykov/Desktop/Qtest/test/ui_menu.h; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A2FF5CC4BA7C4BB373EDDD8B /* moc_game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_game.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/moc_game.cpp; sourceTree = "<absolute>"; };
+		A55421116E7DF8D307EB2D6F /* fight_button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fight_button.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/fight_button.cpp; sourceTree = "<absolute>"; };
+		AD395296D32B8FD0AF2BA2BE /* MyLib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MyLib.cpp; path = /Users/pavelshykov/programming/MySpace/MySpace/MyLib.cpp; sourceTree = "<absolute>"; };
+		B0DF7106354DD73D4ACEAB1A /* button.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = button.hpp; path = /Users/pavelshykov/Desktop/Qtest/test/button.hpp; sourceTree = "<absolute>"; };
+		B16672A8B0758EFC8FC6D9B7 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		B1790A7FCF195BB78A159F92 /* Warea.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Warea.hpp; path = /Users/pavelshykov/Desktop/Qtest/test/Warea.hpp; sourceTree = "<absolute>"; };
+		BC0CB913004D2B6BF1421FAC /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0A94197CBB69F311949134 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /usr/local/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		BDBF9902FA378871F1AAF553 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/pavelshykov/Desktop/Qtest/test/main.cpp; sourceTree = "<absolute>"; };
+		C3F6A497EBC2C5FB2DDE2921 /* menu.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = menu.ui; path = /Users/pavelshykov/Desktop/Qtest/test/menu.ui; sourceTree = "<absolute>"; };
+		C6782FC935236C5672B9F540 /* MyLib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyLib.hpp; path = /Users/pavelshykov/programming/MySpace/MySpace/MyLib.hpp; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E3A451D8BDBF0B7C0870A1EA /* menu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = menu.hpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/menu.hpp; sourceTree = "<absolute>"; };
+		EF00BA50AB734CBFF7C4FDDF /* MyPushButton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyPushButton.hpp; path = /Users/pavelshykov/Desktop/Qtest/test/MyPushButton.hpp; sourceTree = "<absolute>"; };
+		FC8D7FD0D22729E954D4B64B /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = game.cpp; path = /Users/pavelshykov/Desktop/labs/summoning_game/summoning_game/game.cpp; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C071892727ACC10345AA96B6 /* QtWidgets.framework in Link Binary With Libraries */,
+				48C583BB0FFD8EC31284E924 /* QtGui.framework in Link Binary With Libraries */,
+				F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */,
+				61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */,
+				B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */,
+				687E14EA85152E4D921AC3E6 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				C3F6A497EBC2C5FB2DDE2921 /* menu.ui */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2FF5CC4BA7C4BB373EDDD8B /* moc_game.cpp */,
+				88336970535D67C1DA9BE982 /* moc_menu.cpp */,
+				7BC4A5A8E09BBC6094FB4079 /* moc_button.cpp */,
+				8EA13AE3BB2E6EBBBA615EAC /* moc_MyPushButton.cpp */,
+				4C6E58AD9ADB6ED510B6AA89 /* moc_Warea.cpp */,
+				0BEDC6186952058864D324B1 /* moc_fight.cpp */,
+				800F893FD53B9DF0B2576177 /* moc_fight_button.cpp */,
+				9A2AC6C57EE462BC233C3B4E /* ui_menu.h */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BDBF9902FA378871F1AAF553 /* main.cpp */,
+				62C0D635335659663AA94465 /* Schools.cpp */,
+				6C05A02D6334C77D5C994E0D /* Summoner.cpp */,
+				FC8D7FD0D22729E954D4B64B /* game.cpp */,
+				18731F6B1DF15D5556FB5BE7 /* landscape.cpp */,
+				02A8B882C37BE22A150CFE47 /* menu.cpp */,
+				AD395296D32B8FD0AF2BA2BE /* MyLib.cpp */,
+				910ED804A73685EF21290570 /* button.cpp */,
+				687D6544F5D51350807E014A /* MyPushButton.cpp */,
+				55F5DCAD8E84D898628CF574 /* Warea.cpp */,
+				7D487CA17D43EC67AA1B6226 /* Fight.cpp */,
+				A55421116E7DF8D307EB2D6F /* fight_button.cpp */,
+				03C3FBE0F393B37B8C6D5A1A /* Schools.hpp */,
+				548382D9863809D3B70B7500 /* Summoner.hpp */,
+				122290F942920E1369126B91 /* game.hpp */,
+				7C181232AF2DAC34B55BFD21 /* landscape.hpp */,
+				E3A451D8BDBF0B7C0870A1EA /* menu.hpp */,
+				C6782FC935236C5672B9F540 /* MyLib.hpp */,
+				B0DF7106354DD73D4ACEAB1A /* button.hpp */,
+				EF00BA50AB734CBFF7C4FDDF /* MyPushButton.hpp */,
+				B1790A7FCF195BB78A159F92 /* Warea.hpp */,
+				3669602613C278AFFD8C3901 /* Fight.hpp */,
+				1693A8DC786CAE7CC1A6E15E /* fight_button.hpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360FBCAE0546E9686986CF24 /* test.pro */,
+				5E0FAEF209295C77959FAC71 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C12E2FD69E45A3FACFF5550 /* QtWidgets.framework */,
+				BD0A94197CBB69F311949134 /* QtGui.framework */,
+				723F90793B2C195E2CCB2233 /* AppKit.framework */,
+				3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */,
+				1B2543FCC48E9436F21C4F63 /* Metal.framework */,
+				B16672A8B0758EFC8FC6D9B7 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
+			isa = PBXGroup;
+			children = (
+				525DE536155721BDC205514D /* dummy.cpp */,
+			);
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0CB913004D2B6BF1421FAC /* test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE476F197559319859866044 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49818286123A5AD0A0F56BE6 /* PBXTargetDependency */,
+			);
+			name = test;
+			productName = test;
+			productReference = BC0CB913004D2B6BF1421FAC /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* test */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE476F197559319859866044 /* test */,
+				50D549BE871EC18B7CDA8A52 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/pavelshykov/Desktop/Qtest/test -f test.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				/usr/local/share/qt/mkspecs/features/data/dummy.cpp,
+				../../labs/summoning_game/summoning_game/game.hpp,
+				../../labs/summoning_game/summoning_game/menu.hpp,
+				button.hpp,
+				MyPushButton.hpp,
+				Warea.hpp,
+				fight.hpp,
+				fight_button.hpp,
+				menu.ui,
+			);
+			name = "Qt Preprocessors";
+			outputPaths = (
+				moc_predefs.h,
+				moc_game.cpp,
+				moc_menu.cpp,
+				moc_button.cpp,
+				moc_MyPushButton.cpp,
+				moc_Warea.cpp,
+				moc_fight.cpp,
+				moc_fight_button.cpp,
+				ui_menu.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/pavelshykov/Desktop/Qtest/test -f test.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A7F4B16C21752E5A177C59 /* main.cpp in Compile Sources */,
+				17A43F12EEDA51947718ACF1 /* Schools.cpp in Compile Sources */,
+				8335DBCF4F2F16844AE0AA03 /* Summoner.cpp in Compile Sources */,
+				7E5068BF81A38111AE870A28 /* game.cpp in Compile Sources */,
+				5467F786179B1395BABF3D84 /* landscape.cpp in Compile Sources */,
+				7A09CD26AD2441840150E22B /* menu.cpp in Compile Sources */,
+				C55FFA3671C26916408BE607 /* MyLib.cpp in Compile Sources */,
+				E52A5A94EDF2DE7BE761BC9A /* button.cpp in Compile Sources */,
+				3BD43B0EE03045AF1F2F0EC2 /* MyPushButton.cpp in Compile Sources */,
+				0BA9ECD6522394D38E081D19 /* Warea.cpp in Compile Sources */,
+				2B6F5B9AE40719D2EFF8773A /* Fight.cpp in Compile Sources */,
+				47492CEF1F3507A9EB9E2C65 /* fight_button.cpp in Compile Sources */,
+				3EE0FAC009A27AEAD96725AB /* moc_game.cpp in Compile Sources */,
+				460B0F7CD7C406680A1B3623 /* moc_menu.cpp in Compile Sources */,
+				3D451297C338C2C3E71CF1A8 /* moc_button.cpp in Compile Sources */,
+				A44F60DCECAD5411EEA3549C /* moc_MyPushButton.cpp in Compile Sources */,
+				4B2CC3760C48114526F69D71 /* moc_Warea.cpp in Compile Sources */,
+				5A5622A0F639052823AAC7A9 /* moc_fight.cpp in Compile Sources */,
+				87518BCFA51A2B76C2509561 /* moc_fight_button.cpp in Compile Sources */,
+				7439477E6D0CBD93D1620F27 /* dummy.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49818286123A5AD0A0F56BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D549BE871EC18B7CDA8A52 /* Qt Preprocess */;
+			targetProxy = 53AD11A02760F525004970DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/lib,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/lib/QtWidgets.framework/Headers,
+					/usr/local/lib/QtGui.framework/Headers,
+					/usr/local/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/usr/local/Cellar/qt/6.2.1/share/qt/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++2a",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/usr/local/lib",
+					"-F/usr/local/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "2hotty.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = test;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/usr/local/lib/QtWidgets.framework/Headers,
+					/usr/local/lib/QtGui.framework/Headers,
+					/usr/local/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/usr/local/Cellar/qt/6.2.1/share/qt/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++2a",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/usr/local/lib",
+					"-F/usr/local/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "2hotty.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = test;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "2hotty.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = test;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "2hotty.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = test;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

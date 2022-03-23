@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "701b58b075fc33ee1727196e543095082e64f43c171806efbcfb4e228aeacdaa"
+    }
+  ],
+  "containerPath" : "/Users/pavelshykov/Desktop/labs/lab3_prog/DynamicFunc/DynamicFunc.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/pavelshykov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/pavelshykov/Library/Developer/Xcode/DerivedData/DynamicFunc-hdmjthjpbshsrlcprtyqvryjtwqs/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/pavelshykov/Library/Developer/Xcode/DerivedData/DynamicFunc-hdmjthjpbshsrlcprtyqvryjtwqs/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "profile",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

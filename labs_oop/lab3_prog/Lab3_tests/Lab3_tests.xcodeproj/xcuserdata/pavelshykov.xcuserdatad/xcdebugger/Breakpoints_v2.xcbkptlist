@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F49F64F5-3278-4144-8AF6-40298A0FB3BA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "281A8115-E0D8-4C6B-95B7-93B8C559D7B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab3_tests/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "TEST_F()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "281A8115-E0D8-4C6B-95B7-93B8C559D7B1 - fe018538b763eca3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFunc_min_Test::TestBody()"
+                  moduleName = "Lab3_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/Desktop/labs/lab3/Lab3_tests/Lab3_tests/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "281A8115-E0D8-4C6B-95B7-93B8C559D7B1 - fe018538b763eca3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFunc_min_Test::TestBody()"
+                  moduleName = "Lab3_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/Desktop/labs/lab3/Lab3_tests/Lab3_tests/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "135">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "214AD521-9B45-4F58-84F0-64258E55086F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab3_tests/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "TEST_F()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "214AD521-9B45-4F58-84F0-64258E55086F - 332d843ddc9e9896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFunc_add_and_value_exactly_at_the_point_Test::TestBody()"
+                  moduleName = "Lab3_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/Desktop/labs/lab3/Lab3_tests/Lab3_tests/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "214AD521-9B45-4F58-84F0-64258E55086F - 332d843ddc9e9896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestFunc_add_and_value_exactly_at_the_point_Test::TestBody()"
+                  moduleName = "Lab3_tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/Desktop/labs/lab3/Lab3_tests/Lab3_tests/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71199DC7-CC5D-4EB4-A270-E42CDD90FEB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab3_tests/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "SetUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

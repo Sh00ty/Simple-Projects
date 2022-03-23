@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D464E2D-1466-4ED0-A6F6-FF36F6B9A05F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC68C87B-EDDC-43B1-9E71-AC599E406731"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lab3/FuncClass.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "StaticFunction::type()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DD083AE-59DC-41C6-9B59-3F3FCB6512BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../programming/MySpace/MySpace/MyLib.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "smaller_cmp(a, b)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E20AF75-A052-4DCB-9EED-0779854BA8F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../programming/MySpace/MySpace/MyLib.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1E20AF75-A052-4DCB-9EED-0779854BA8F9 - acac450b886ef733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "double MLT::get_num&lt;double&gt;(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "lab3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/programming/MySpace/MySpace/MyLib.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1E20AF75-A052-4DCB-9EED-0779854BA8F9 - d635af51108c7763"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unsigned char MLT::get_num&lt;unsigned char&gt;(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "lab3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/programming/MySpace/MySpace/MyLib.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1E20AF75-A052-4DCB-9EED-0779854BA8F9 - 411b6c9ce7ad845d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "int MLT::get_num&lt;int&gt;(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "lab3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pavelshykov/programming/MySpace/MySpace/MyLib.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "214"
+                  endingLineNumber = "214"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
