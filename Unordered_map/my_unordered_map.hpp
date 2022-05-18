@@ -87,11 +87,12 @@ class MyUnorderedMap{
     
 public:
     template<bool is_const>
-    class Any_iterator: public std::forward_iterator_tag{
-        MLT::conditional_t<is_const, const bucket, bucket>* it;
+    class Any_iterator{
+        std::conditional_t<is_const, const bucket, bucket>* it;
         
     public:
         using value_type = T;
+        using iterator_category = std::forward_iterator_tag;
         Any_iterator(std::conditional_t<is_const, const bucket, bucket>* p): it(p) {}
         
         std::conditional_t<is_const, const Any_iterator, Any_iterator>& operator++(){
